@@ -1,0 +1,335 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.full_website{
+width:960px;
+border: 1px solid gray;
+height: auto;
+margin: 0 auto;
+}
+.first_section{
+    /* background-color: burlywood; */
+    /* height: 50px; */
+    /* width: 100%; */
+    /* padding: 10px 0px; */
+}
+/* .logo{
+    width: 40%;
+    float: left;
+    padding: 10px 15px;
+}
+.banner{
+    width: 50%;
+    float: right;
+} */
+.second_section{
+    background-color: gray;
+    height: 40px;
+}
+.menu ul{
+    height: 40px;
+}
+.menu ul li{
+    display: inline-block;
+    padding: 10px 0px;
+    border-right: 1px solid brown;
+    margin-left: -4px;
+}
+.menu ul li:first-child{
+    margin-left: 0px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+
+}
+.menu ul li a:hover{
+    background-color: darkolivegreen;
+
+}
+.third_section{
+    background-color: darkseagreen;
+    height: auto;
+    width: 100%;
+}
+.slider{
+    color: white;
+    padding-top: 20px;
+    text-align: center;
+}
+.fourth_section{
+background-color: dimgrey;
+height: 1280px;
+
+}
+.content{
+    background-color: rgb(129, 159, 160);
+    width: 65%;
+    float: left;
+    height: auto;
+  
+}
+.content img{
+    width: 330px;
+    height:392px;
+    float: left;
+    padding:7px 10px ;
+
+}
+.content p{
+    padding: 7px 17px;
+    text-align: justify;
+    /* border-bottom: 1px solid gray; */
+    height: 350px;
+    width: 240px;
+    float: right;
+    line-height: 19px;
+}
+.content a{
+    /* margin-top: -15px; */
+    text-decoration: none;
+    color: white;
+    border: 1px solid blue;
+    border-radius: 16px;
+    padding: 8px 15px;
+    margin-right: 10px;
+    background-color: rgb(172, 81, 81);
+    float: right;
+    
+
+}
+.content a:hover{
+    background-color: rgb(192, 94, 94);
+}
+.content_element{
+    /* margin-top: 45px; */
+    /* border-bottom: 1px solid blueviolet; */
+    
+}
+.content_element3{
+    background-color: rgb(55, 82, 83);
+    width: 100%;
+    float: left;
+    height: 450px;
+
+}
+.content_element3 img{
+    width: 330px;
+    height:392px;
+    float: right;
+    padding:8px 10px ;
+
+}
+.content_element3 p{
+
+    padding: 9px 17px;
+    padding-top: 16px;
+    padding-left: 15px;
+    text-align: justify;
+    /* border-bottom: 1px solid gray; */
+    height: 350px;
+    width: 240px;
+    float: right;
+    line-height: 19px;
+}
+.content_element3 a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid blue;
+    border-radius: 16px;
+    padding: 8px 15px;
+    margin-right: 10px;
+    background-color: rgb(172, 81, 81);
+    float: right;
+
+}
+.content_element3 a:hover{
+    background-color: rgb(192, 94, 94);
+}
+/* .fourth_section .content p img{
+    width: 100%;
+    background-color: darkkhaki;
+   
+} */
+.right_sidebar{
+background-color: rgb(126, 146, 118);
+width: 31%;
+float: right;
+height: auto;
+padding-left: 20px;
+}
+.sidebar_element{
+    margin: 10px;
+
+}
+.sidebar_element h2{
+    font-size: 29px;
+    color: white;
+    background-color: teal;
+    border-bottom: 1px solid brown;
+    width: 70%;
+    margin-left: -29px;
+    padding-left: 10px;
+    
+}
+.sidebar_element ul li {
+    padding:5px 0px;
+    /* list-style: none; */
+    
+    
+}
+.sidebar_element ul li a{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    
+}
+.sidebar_element ul li a:hover{
+    background-color: rgb(150, 52, 150);
+    text-decoration: underline;
+    
+}
+.fifth_section{
+    clear: right;
+    background-color: rgb(134, 126, 126);
+    color: rgb(202, 190, 147);
+    display: flex;
+    margin-top: 0px;
+    padding:40px 37px;
+    padding-left: 20px;
+    line-height: 22px;
+}
+.box h2,.follow-us h2{
+    
+    color: white;
+    border-bottom: 4px solid rgb(54, 49, 49);
+    width: 80%;
+    padding-bottom: 7px;
+    /* margin: 10px 15px; */
+}
+.box p,.follow-us p{
+
+margin: 10px 5px;
+}
+.box ul li{
+    color: rgb(70, 66, 20);
+    margin: 10px 15px;
+}
+.box ul li a{
+    text-decoration: none;
+    color: rgb(70, 66, 20);
+}
+.box ul li a:hover{
+    text-decoration:underline ;
+    color: rgb(70, 83, 109);
+}
+.follow-us{
+    width: 30%;
+    /* background-color: rgb(110, 102, 187); */
+    /* padding: 20px 20px; */
+    /* flex-basis: 40%; */
+    /* margin: 0px 30px; */
+    /* height: 350px;
+    margin-right: 30px; */
+}
+.follow-us ul{
+    /* text-align: center; */
+}
+.follow-us ul li{
+    padding: 23px 5px;
+    display: inline-block;
+}
+.follow-us ul li a{
+    font-size: 29px;
+    color: rgb(70, 66, 20);
+    text-decoration: none;
+}
+.follow-us ul li:hover{}
+
+.sixth_section{
+    background-color: grey;
+    text-align: center;
+    color: wheat;
+    padding: 10px 20px;
+}
+.about_page{
+    line-height: 35px;
+    border:3px solid rgb(170, 151, 127);
+    border-radius: 15px;
+    margin: 30px 30px;
+    background-color: rgb(71, 69, 66);
+    
+
+}
+.about_page h2{
+    /* background-color: rgb(189, 144, 87); */
+    text-align: center;
+    font-size: 30px;
+    border-bottom: 4px solid rgb(204, 145, 145);
+   
+    
+}
+.about_page p{
+    background-color: rgba(68, 129, 93, 0.349);
+    /* line-height: 30px; */
+    text-align: justify;
+    font-size: 19px;
+    color: white;
+    padding: 20px 25px;
+    
+}
+
+.contact_page{
+    width: 93%;
+    background-color: rgb(155, 148, 147);
+    border:2px solid rgb(114, 116, 110);
+    border-radius: 40px;
+    margin: 30px 30px;
+    
+
+}
+.contact_page h1{
+    text-align: center;
+    /* margin-top: 20px; */
+    padding: 12px 5px;
+    
+    font-size: 28px;
+}
+.contact_page h2{
+    text-align: center;
+    /* color: rgb(139, 76, 76); */
+    font-size: 20px;
+    width: 100%;
+    padding: 30px;
+
+}
+
+.contact_page img{
+    margin-top: 140px;
+    margin-left: 80px;
+
+}
+
+.contact_page .form{
+    /* border: 1px solid blueviolet; */
+    /* width: 60%; */
+    /* float: right; */
+    margin-top: -310px;
+    /* margin-left: 450px; */
+    text-align: right;
+    font-size: 16px;
+   
+    padding: 20px 25px;
+    
+}
+.contact_page .form_box{
+
+    width: 35%;
+    border: 2px solid rgb(73, 37, 37);
+    border-radius: 20px;
+    background-color: rgb(177, 105, 118);
+    color:white;
+    padding: 10px 10px;
+}
